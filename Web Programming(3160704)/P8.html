@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Practical 8</title>
+    <link rel="stylesheet" type="text/css" href="./P6.css">
+    <script>
+        function winopen() {
+            window.open("P8_1.html");
+        }
+    </script>
+</head>
+
+<body>
+    <div class="Registration-form">
+        <h1>Registration Form</h1>
+        <form action="" method="post">
+            <p>Full Name:</p>
+            <input type="text" name="u_fullname" id="fullname" placeholder="Full Name">
+            <p>Password:</p>
+            <input type="password" name="u_passwod" id="password" placeholder="Password">
+            <p>Email:</p>
+            <input type="email" name="u_email" id="email" placeholder="Email">
+            <p>Mobile Number:</p>
+            <input type="tel" name="u_Mobile" id="Mobilenum" placeholder="Mobile Number" minlength="10" maxlength="10"><br>
+            <button type="submit" onclick="winopen()">Signup</button>
+        </form>
+    </div>
+</body>
+
+</html>
